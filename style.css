@@ -1,0 +1,141 @@
+* {
+    background-color:aquamarine;
+    font-size: 45px;
+}
+
+#startButton {
+    font-size: 100px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding: 200px;
+    padding-bottom: 400px;
+    text-align: center;
+    background-color: aquamarine;
+    z-index: 5;
+    border: none;
+}
+
+#questions {
+    color: darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+#questionOne {
+    border: solid black 3px;
+    padding: 60px;
+    padding-right: 200px;
+    padding-left: 200px;
+    position: absolute;
+}
+
+#questionTwo {
+    border: solid black 3px;
+    padding: 60px;
+    padding-right: 200px;
+    padding-left: 200px;
+    position: absolute;
+}
+
+#questionThree {
+    border: solid black 3px;
+    padding: 60px;
+    padding-right: 200px;
+    padding-left: 200px;
+    position: absolute;
+}
+
+#questionFour {
+    border: solid black 3px;
+    position: absolute;
+    padding: 60px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+#answersForQuestionOne {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    list-style: none;
+    margin-top: 140px;
+    background-color: aquamarine;
+}
+
+#answersForQuestionTwo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    list-style: none;
+    margin-top: 140px;
+    background-color: aquamarine;
+}
+
+#answersForQuestionThree {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    list-style: none;
+    margin-top: 140px;
+    background-color: aquamarine;
+}
+
+#answersForQuestionFour {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    list-style: none;
+    margin-top: 140px;
+    background-color: aquamarine;
+}
+
+form {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -2;
+    margin-top: 250px;
+    }
+
+h1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -2;
+    margin-top: 90px;
+}
+
+h2 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -2;
+    margin-top: 170px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web APIs Timed Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<div>Timer: </div><div id="timer">60</div>
+    <button type = "button" id = "startButton">START</button>
+    <ul id="questions">
+        <li id="questionOne">What is the capitol of Texas?</li>
+        <li id="questionTwo">What is the capitol of New York</li>
+        <li id="questionThree">What is the capitol of California?</li>
+        <li id="questionFour">What is the capitol of Florida?</li>
+    </ul>
+    <ol id="answersForQuestionOne">
+       <li id="answerOneforQuestionOne">Austin</li> 
+       <li id="answerTwoforQuestionOne">Dallas</li> 
+       <li id="answerThreeforQuestionOne">Houston</li> 
+       <li id="answerFourforQuestionOne">El Paso</li> 
+    </ol>
+    <ol id="answersForQuestionTwo">
+        <li id="answerOneforQuestionTwo">New York City</li> 
+        <li id="answerTwoforQuestionTwo">Albany</li> 
+        <li id="answerThreeforQuestionTwo">Ithica</li> 
+        <li id="answerFourforQuestionTwo">Saratoga Springs</li> 
+    </ol>
+    <ol id="answersForQuestionThree">
+        <li id="answerOneforQuestionThree">Los Angeles</li> 
+        <li id="answerTwoforQuestionThree">San Francisco</li> 
+        <li id="answerThreeforQuestionThree">Sacramento</li> 
+        <li id="answerFourforQuestionThree">Cupertino</li> 
+    </ol>
+    <ol id="answersForQuestionFour">
+        <li id="answerOneforQuestionFour">Tampa</li> 
+        <li id="answerTwoforQuestionFour">Miami</li> 
+        <li id="answerThreeforQuestionFour">Orlando</li> 
+        <li id="answerFourforQuestionFour">Tallahassee</li> 
+    </ol>
+<div id="logUser">
+<!-- <h1>Your score is:</h1>
+<h1 id="score"></h1>
+<form id="userName">Save Initials <input type="text"><input type="submit"></form> -->
+<h1>GAME OVER</h1>
+    <hr />
+
+    <h2>enter initials to see your score</h2>
+    <form id="initial-form">
+      <input type="text" class="form-input w-100" id="initial-input" name="initial-input" placeholder="Enter Initials" />
+      <button class="btn btn-info">Add Item</button>
+    </form>
+
+    <ul id="player-list"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+1. button: start
+    a. start timer
+    b. reveal question
+    c. needs to be in CSS, HTML, and JS
+    d. Add an id to it.
+    e. JS- querySelector, addEventListener
+    f. element.addEventListener("click",)
+        https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_addeventlistener2
+
+2. Timer
+
+3. Questions
+    a. Array of Objects. Make each quesiton an object
+    b. var Questions = [
+        {
+            questionText: "this is the question text",
+            answers: ['option 1', 'option 2', 'option 3', 'option 4'],
+            correct: 'option 3'
+        }
+        ,
+         {
+            questionText: "this is the question text",
+            answers: ['option 1', 'option 2', 'option 3', 'option 4'],
+            correct: 'option 3'
+        }
+    ]
+
+    c. for each, if statement for correct (adds time), else statement for incoorect (subtracts time)
+    d. Need to have a correct answer
+    e. if statement for when it's correct (read "correct", addEventListener to hide question, display next question)
+    f. else statement for when it's wrong (read "incorrect", addEventListener to hide question, display next question, reduce time on timer)
+
+
+    Resources:
+    https://scrimba.com/learn/htmlandcss/
+    https://scrimba.com/learn/learnjavascript
+    
+
+    To do:
+    Make End Score that says your score is ____ and option to enter, save initials
+    subtract time element on red JS
+
+    .addEventListener("click") {
+
+    }
+
+
+first we need to save the score input as a var
+store name input as a var too
+
+append the child elements to an empty li tab
+
+
+form:
+https://jqueryui.com/dialog/#modal-form
+
+timer:
+https://momentjs.com/docs/#/displaying/
+moment subtract - 15 seconds
