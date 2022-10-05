@@ -16,7 +16,7 @@ CSS file: https://github.com/pariselectra/Web-APIs-Timed-Quiz/blob/main/style.cs
 
 Javascript file: https://github.com/pariselectra/Web-APIs-Timed-Quiz/blob/main/script.js
 
-Live Website:
+Live Website: https://pariselectra.github.io/Web-APIs-Timed-Quiz/
 
 ## Usage
 This program serves as an example for new programmers looking for reference in using WebAPIs to link interract between Javascript, HTML, and CSS elements.
